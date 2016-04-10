@@ -1,3 +1,3 @@
-python -m pylint --rcfile=.pylintrc listc_hacker.py unittest_listc.py
+python -m pylint --rcfile=.pylintrc sln_hacker.py unittest_sln.py
 
-python unittest_listc.py
+python unittest_sln.py
