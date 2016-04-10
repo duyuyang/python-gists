@@ -1,7 +1,7 @@
 """Unit test for Hackerrank"""
 import unittest
 import mock
-from sethacker import Sethacker
+from set_hacker import Sethacker
 
 class TestSetMethods(unittest.TestCase):
     """Test case for set methods"""
