@@ -1,7 +1,8 @@
 '''Unit test for list comprehensions'''
 import unittest
 import mock
-from listc_hacker import Listchacker
+import utils
+from utils.listc_hacker import Listchacker
 
 class TestListComprehensionMethods(unittest.TestCase):
     '''Test case for list comprehensions'''
