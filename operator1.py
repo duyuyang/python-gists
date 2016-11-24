@@ -28,3 +28,11 @@ x = 15
 y = 20
 
 print x | y
+
+
+#cost = map(float, [raw_input(), raw_input(), raw_input()])
+#print cost[0] + cost[0]*cost[1]/100 + cost[0]*cost[2]/100
+
+cost = float(raw_input())
+percent = map(float, [100, raw_input(), raw_input()])
+print round(sum(map(lambda x: cost*x/100, percent)))
